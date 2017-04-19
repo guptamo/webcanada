@@ -1,0 +1,111 @@
+.container{
+    text-align: center;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.App__itemWidth___3zU0s {
+    width: 60%;
+}
+
+.App__todoList___1Smvp {
+    width: 66%;
+    margin: 12px auto;
+    background-color: lightgrey;
+    padding: 8px;
+}
+
+.App__todoList___1Smvp {
+    margin-left: 50px;
+}
+
+.App__todoList___1Smvp > h1 {
+    text-align: left;
+    margin-left: 35px;
+}
+
+.App__todoList___1Smvp > form {
+    margin: 0 auto;
+}
+
+.App__todoList___1Smvp > ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.App__input___1tEjW {
+}
+.container{
+    text-align: center;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.App__itemWidth___3zU0s {
+    width: 60%;
+}
+
+.App__todoList___1Smvp {
+    width: 66%;
+    margin: 12px auto;
+    background-color: lightgrey;
+    padding: 8px;
+}
+
+.App__todoList___1Smvp {
+    margin-left: 50px;
+}
+
+.App__todoList___1Smvp > h1 {
+    text-align: left;
+    margin-left: 35px;
+}
+
+.App__todoList___1Smvp > form {
+    margin: 0 auto;
+}
+
+.App__todoList___1Smvp > ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.App__input___1tEjW {
+}
+.Task__task___1NYEV {
+    color: green;
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+}
+
+.Task__task___1NYEV > p {
+    margin: 0;
+}
+
+.Task__task___1NYEV > button {
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    text-align: right;
+    width: 20px;
+}
+
+.Task__done___ph63_ {
+    text-decoration: line-through;
+    color: grey;
+}

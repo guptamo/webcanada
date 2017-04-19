@@ -1,0 +1,43 @@
+{
+    "name": "react_redux_starter",
+    "version": "1.0.0",
+    "description": "A starter package that gets you up and going with a solid base for a react, redux app. Includes fun stuff like webpack bundling and testing!",
+    "main": "index.js",
+    "repository": "https://github.com/guptamo/react_now",
+    "author": "guptamo <mo@mohitgupta.ca>",
+    "license": "MIT",
+    "devDependencies": {
+        "autoprefixer": "^6.7.7",
+        "babel-core": "^6.24.0",
+        "babel-loader": "^6.4.0",
+        "babel-preset-es2015": "^6.24.0",
+        "babel-preset-react": "^6.23.0",
+        "babel-register": "^6.24.0",
+        "babili-webpack-plugin": "^0.0.11",
+        "chai": "^3.5.0",
+        "compression-webpack-plugin": "^0.3.2",
+        "css-loader": "^0.27.3",
+        "enzyme": "^2.7.1",
+        "extract-text-webpack-plugin": "^2.1.0",
+        "file-loader": "^0.11.0",
+        "html-webpack-plugin": "^2.28.0",
+        "jsdom": "^9.12.0",
+        "mocha": "^3.2.0",
+        "postcss-loader": "^1.3.3",
+        "react-addons-test-utils": "^15.4.2",
+        "style-loader": "^0.15.0",
+        "webpack": "^2.2.1",
+        "webpack-browser-plugin": "^1.0.20",
+        "webpack-dev-server": "^2.4.2",
+        "webpack-merge": "^4.1.0"
+    },
+    "scripts": {
+        "start": "webpack-dev-server --env development",
+        "build": "webpack --env production",
+        "test": "mocha test/.setup.js test/**/*_test.js --watch --recursive"
+    },
+    "dependencies": {
+        "react": "^15.4.2",
+        "react-dom": "^15.4.2"
+    }
+}

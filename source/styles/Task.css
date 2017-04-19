@@ -1,0 +1,23 @@
+.task {
+    color: black;
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-grow: 1;
+}
+
+.task > p {
+    margin: 0;
+}
+
+.task > button {
+    flex-basis: auto;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: grey;
+}
