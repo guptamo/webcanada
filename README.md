@@ -33,4 +33,4 @@ git clone https://github.com/guptamo/webcanada
 ```
 
 - Open localhost:8080 in your favorite/test browser
-- If you'd like to reset the storage enter ```localStorage.removeItem("tasks") ``` in your console.
+- If you'd like to reset the storage enter ```localStorage.removeItem("tasks") ``` in your console and reload your browser tab.
